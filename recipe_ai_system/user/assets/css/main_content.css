@@ -1,0 +1,39 @@
+/* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 2rem;
+        }
+        /* Content Sections */
+        .content-section {
+            background: var(--bg-primary);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px var(--shadow);
+            overflow: hidden;
+            display: none;
+            flex-direction: column;
+            min-height: 600px;
+        }
+        .content-section.active {
+            display: flex;
+        }
+        .ai-chat-section,
+        .chat-section {
+            height: calc(100vh - 400px);
+            min-height: 600px;
+        }
+        .section-header {
+            background: linear-gradient(135deg, var(--accent-orange), #ff8c5a);
+            color: white;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .section-header i {
+            font-size: 2rem;
+        }
+        

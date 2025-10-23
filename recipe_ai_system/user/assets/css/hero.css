@@ -1,0 +1,36 @@
+/* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, rgba(255, 107, 53, 0.95), rgba(74, 124, 78, 0.95)),
+                        url('https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=1200') center/cover;
+            padding: 4rem 2rem;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 20px var(--shadow);
+        }
+        .hero-title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+        .hero-features {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .hero-feature {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.1rem;
+        }
+        .hero-feature i {
+            font-size: 1.5rem;
+        }
